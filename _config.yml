@@ -4,7 +4,7 @@ email:  # email of site's author
 url: https://tristanwhite.net # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  Welcome to my internet corner!
+  welcome to my corner of the internet!
 
 permalink: /:slug.html
 
