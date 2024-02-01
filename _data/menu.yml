@@ -4,11 +4,11 @@
 entries:
   - title: about me
     entries:
-      - title: bio
+      - title: basic info
         url: about
-      - title: books
+      - title: i like books
         url: books
-      - title: resume
+      - title: i'm employable
         url: resume
 
   - title: most recent posts
@@ -23,7 +23,7 @@ entries:
       limit: 3
       category: computer
       show_more: true
-      show_more_text: see more computery posts...
+      show_more_text: more computer posts...
       show_more_url: computer_archive
 
   - title: links
