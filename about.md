@@ -22,6 +22,11 @@ title: About
 - Can I hire you?
 	- No. Well, not yet. I'm still in the Navy. Follow me on [LinkedIn](https://www.linkedin.com/in/tr15t4n) and I'll let you know if that changes.
 
+## currently i'm working on
+- [OSCP](https://www.offsec.com/courses/pen-200/)
+- learning how to write ghidra scripts
+- learning the mic release with a jump rope (harder than I thought)
+
 ## checklist
 
 - [x] run a marathon
@@ -29,6 +34,8 @@ title: About
 - [x] learn how to make a website
 - [x] learn to surf
 - [x] learn to ride a unicycle
+- [x] solve a rubiks cube
+	- [x] blindfolded
 - [x] solve the hardest question on leetcode
 	- [420. Strong Password Checker](https://leetcode.com/problems/strong-password-checker/description/)
 - [ ] learn spanish (in progress; ~60%)
