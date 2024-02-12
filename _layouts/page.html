@@ -7,3 +7,9 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 {{ content }}
+
+{% if page.custom_js %}
+    {% for js_file in page.custom_js %}
+        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
+    {% endfor %}
+{% endif %}

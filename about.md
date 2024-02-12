@@ -1,7 +1,8 @@
 ---
 layout: page
 # note: only difference between page and and post is page doesn't show publish date
-title: About
+title: about
+custom_js: globe
 ---
 ## FAQs
 
@@ -43,6 +44,10 @@ title: About
 - [ ] visit Machu Pichu
 - [ ] hike in Patagonia
 - [ ] travel the world
-	- [x] visit 10 countries
-	- [ ] visit 25 countries
-	- [ ] visit 50 countries
+	- in progress:
+
+<div id="myDiv"></div>
+
+<!-- For visited countries map -->
+<script src='https://cdn.plot.ly/plotly-2.27.0.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
