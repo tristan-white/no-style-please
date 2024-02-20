@@ -8,12 +8,10 @@ custom_js: globe
 
 - How are you? (most frequent question I receive)
 	- Not too bad, thanks.
-- What's your name? (get this one a lot too)
-	- Tristan White
-- Say, nice duds.
-	- Thanks, but that's not really a question.
 - Where are you from?
 	- Virginia
+- Say, nice duds.
+	- Thanks, but that's not really a question.
 - Where did you go to school?
 	- University of Virginia
 - What do you do?
@@ -21,12 +19,7 @@ custom_js: globe
 - Why'd you join the Navy?
 	- Well, I knew I didn't want to pay for college and Uncle Sam said he'd pay for my undergrad if I worked for him for five years. It also seemed like a logical next step in life; both my parents and grandfathers went to the Naval Academy. I was also hoping to travel the world.
 - Can I hire you?
-	- No. Well, not yet. I'm still in the Navy. Follow me on [LinkedIn](https://www.linkedin.com/in/tr15t4n) and I'll let you know if that changes.
-
-## currently i'm working on
-- [OSCP](https://www.offsec.com/courses/pen-200/)
-- learning how to write ghidra scripts
-- learning the mic release with a jump rope (harder than I thought)
+	- No. Well, not yet. I'm still in the Navy. Follow me on [LinkedIn](https://www.linkedin.com/in/tr15t4n) and I'll let you know when that changes.
 
 ## checklist
 
