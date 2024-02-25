@@ -7,7 +7,7 @@ Github Pages will host anyone's website for free, as long as it is statically ge
 
 By default, the site will be hosted at `<github-username>.github.io`. For example, my website (the site you're on now) is hosted at [tristan-white.github.io](https://tristan-white.github.io).
 
-But if you enter that in your search bar, you'll be sent to this site and see `tristanwhite.me` in the URL bar. The reason for this is that I've set up my github pages site to use a custom domain that was registerd through Squarespace. 
+But if you enter that in your search bar, you'll be sent to this site and see `tristanwhite.me` in the URL bar. The reason for this is that I've set up my github pages site to use a custom domain that was registered through Squarespace. 
 
 ## Steps to use Squarespace Domain with Github Pages
 1. Change the name of you github account to `<username>.github.io`
@@ -23,4 +23,4 @@ But if you enter that in your search bar, you'll be sent to this site and see `t
 
 ![DNS Records for this website](./assets/images/squarespace-domain/records.png)
 
-Your done! It may take time for the records to propogate so it's possible that it could take up to 72 hours for everything to take effect.
+Your done! It may take time for the records to propagate so it's possible that it could take up to 72 hours for everything to take effect.
