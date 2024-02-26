@@ -8,8 +8,6 @@ entries:
         url: about
       - title: i like books
         url: books
-      - title: i'm employable
-        url: resume
 
   - title: most recent posts
     post_list:
