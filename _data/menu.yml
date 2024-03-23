@@ -11,14 +11,14 @@ entries:
 
   - title: most recent posts
     post_list:
-      limit: 5
+      limit: 10
       show_more: true
       show_more_text: see all posts...
       show_more_url: archive
 
   - title: posts about computer things
     post_list:
-      limit: 3
+      limit: 10
       category: computer
       show_more: true
       show_more_text: more computer posts...
