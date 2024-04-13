@@ -31,22 +31,25 @@ Unfortunately, Amex's travel website was just not built to help you find the bes
 - there's no feature to allow you to find the cheapest date for a particular hotel
 - searching with their filters is slow (takes about 10 seconds per search)
 
-What this means is that if you want to find the cheapest date to visit a particular hotel, there's no option except to check every single date in your range of dates. Let's trace out that method: suppose you find a cool hotel in Nashville that you want to stay at, but the hotel price is $800/night for the specific day you check. Is there a cheaper night? What's the cheapest night this summer? To answer this question, you perform about 90 searches for each night of the summer. Let's say you're able to do a search in about 10 seconds, then scan the results with your eyes and remember relevant details in another 10 seconds. This whole process would then take 90 * (10 + 10) = 1800 seconds = 30 minutes. Finally, say you found the ideal night. Only $250 per night! Oh, but you have a wedding that day? Back to the drawing board and performing price queries for half an hour.
+What this means is that if you want to find the cheapest date to visit a particular hotel, there's no option except to check every single date in your range of dates. Let's trace out that method: suppose you find a cool hotel in Nashville that you want to stay at, but the hotel price is $800/night for the specific day you check. Is there a cheaper night? What's the cheapest night this summer? To answer this question, you perform about 90 searches for each night of the summer. Let's say you're able to do a search in about 10 seconds, then scan the results with your eyes and remember relevant details in another 10 seconds. This whole process would then take 90 * (10 + 10) = 1800 seconds = 30 minutes. Finally, say you found the ideal night. Only $250 per night! Oh, but you have a wedding that day...maybe you can find a deal for a different day in a different city? Back to the drawing board and performing price queries for half an hour.
 
 I searched online for ways to find the best deals, but I couldn't find any. Which got me thinking...why can't I just get the data I need and analyze it myself?
 
 After I did a search on amextravel.com, I opened the firefox debugging tools in my browser. After looking around at the individual http requests my browser was sending, I found one that received all the data I desired in JSON via an http response.
 
-<a href="https://imgbox.com/E19S2rti" target="_blank"><img src="https://thumbs2.imgbox.com/1b/9b/E19S2rti_t.png" alt="image host"/></a>
+<img src="https://thumbs2.imgbox.com/1b/9b/E19S2rti_t.png" alt="image host"/>
 
-I examined the packet in the firefox network debugger to determine how to craft http request queries to receive responses with the specific data I wanted. Next, [I wrote a python program](https://github.com/tristan-white/fhr_deal_finder) to iterate over all the dates for which I wanted to check nightly rates. Finally, I used [plotly](https://tristanwhite.me/plotly.html) to display the data with an interactive graph. I must say, the results are pretty cool. This gif shows an example output graph that contains all the prices for all FHR hotels in the state of Texas for the months of May through August and demonstrates some of the features that allow you to quickly narrow in on the information you need:
+I examined the packet in the firefox network debugger to determine how to craft http request queries to receive responses with the specific data I wanted. Next, [I wrote a python program](https://github.com/tristan-white/fhr_deal_finder) to iterate over all the dates for which I wanted to check nightly rates. Finally, I used [plotly](https://tristanwhite.me/plotly.html) to display the data with an interactive graph. I must say, [the results are pretty cool](https://tristanwhite.me/fhr.html).
 
-<div style="width:100%;height:0;padding-bottom:66%;position:relative;"><iframe src="https://giphy.com/embed/BhYlJFHHI6wRt2J4Fs" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+<a href="https://tristanwhite.me/fhr.html" target="_blank"><img src="https://thumbs2.imgbox.com/71/7f/791DKkJA_t.png" alt="image host"/></a>
 
-Happy travel hacking :)
+If you'd like to use this command line tool to find your own deals, you can grab it here:
+[https://github.com/tristan-white/tristan-white.github.io](https://github.com/tristan-white/tristan-white.github.io)
+
+Hoping this can help other travel hackers snipe some great deals. Happy travel hacking :)
 
 ---
 [^1]: The big asterisk for THC hotels is that you must stay at least two nights to use the $200 credit.
 [^2]: From what I've seen, the vast majority of hotels give you $100 to use on the premises (at the bar, restaurant, spa, etc). However, occasionally a hotel will give you an experience instead of money.
 [^3]: In fact the most expensive room I've found while playing around with the program I built in this article was the [Montage Palmetto Bluff](https://www.montage.com/palmettobluff/) hotel for $5865 the night of May 2nd (price current as of 2024-04-13). And that's before the $889 tax.
-[^4]: There **are** FHR hotels as low as about $250, you just have to look hard for them. Or at least you did, before I wrote the program in this article :)
+[^4]: There **are** FHR hotels as low as about $250, you just have to look hard for them. Or at least you did, before I wrote the program in this article.
