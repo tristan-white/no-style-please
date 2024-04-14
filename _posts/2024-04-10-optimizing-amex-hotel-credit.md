@@ -4,7 +4,7 @@ title: Travel Hacking with Network and Data Analysis
 custom_js: fhr
 ---
 
-American Express likes to flaunt the fact that Platinum Card members receive a $200 hotel credit annualy. It certainly is a great perk, but does it actually help you save money while traveling, or just entice you to spend more?
+American Express likes to flaunt the fact that Platinum Card members receive a $200 hotel credit annually. It certainly is a great perk, but does it actually help you save money while traveling, or just entice you to spend more?
 
 Let's look at exactly what this [perk](https://www.americanexpress.com/en-us/travel/benefits/how-to-use-hotel-credit/) gets you:
 - $200 towards Fine Hotels + Resorts (FHR) or The Hotel Collection (THC) [^1]
@@ -44,7 +44,7 @@ I examined the packet in the firefox network debugger to determine how to craft 
 <a href="https://tristanwhite.me/fhr.html" target="_blank"><img src="https://thumbs2.imgbox.com/71/7f/791DKkJA_t.png" alt="image host"/></a>
 
 If you'd like to use this command line tool to find your own deals, you can grab it here:
-[https://github.com/tristan-white/tristan-white.github.io](https://github.com/tristan-white/tristan-white.github.io)
+[https://github.com/tristan-white/fhr_deal_finder](https://github.com/tristan-white/fhr_deal_finder)
 
 Hoping this can help other travel hackers snipe some great deals. Happy travel hacking :)
 
