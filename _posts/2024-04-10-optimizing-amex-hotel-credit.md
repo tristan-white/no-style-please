@@ -3,7 +3,6 @@ layout: post
 title: Travel Hacking with Network and Data Analysis
 custom_js: fhr
 ---
-
 American Express likes to flaunt the fact that Platinum Card members receive a $200 hotel credit annually. It certainly is a great perk, but does it actually help you save money while traveling, or just entice you to spend more?
 
 Let's look at exactly what this [perk](https://www.americanexpress.com/en-us/travel/benefits/how-to-use-hotel-credit/) gets you:
@@ -47,6 +46,8 @@ If you'd like to use this command line tool to find your own deals, you can grab
 [https://github.com/tristan-white/fhr_deal_finder](https://github.com/tristan-white/fhr_deal_finder)
 
 Hoping this can help other travel hackers snipe some great deals. Happy travel hacking :)
+
+> 2024-04-16 Edit: A user on reddit [shared](https://www.reddit.com/r/AmexPlatinum/comments/1c4vwfz/how_to_actually_find_the_fine_hotels_resorts_with/) that you can use [maxfhr.com](https://www.maxfhr.com/) to essentially accomplish my goal with this project. I'd reccomend that tool to anyone looking for a good FHR rate. My tool is only better for 1) seeing prices that are always up to date, and 2) see taxes and fees, which can account for about a quarter of the total price.
 
 ---
 [^1]: The big asterisk for THC hotels is that you must stay at least two nights to use the $200 credit.
