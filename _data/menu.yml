@@ -4,9 +4,9 @@
 entries:
   - title: about me
     entries:
-      - title: basic info
+      - title: start here
         url: about
-      - title: i like books
+      - title: books i've read
         url: books
 
   - title: most recent posts
@@ -23,6 +23,9 @@ entries:
       show_more: true
       show_more_text: more computer posts...
       show_more_url: computer_archive
+
+  - title: syllabus
+    url: syllabus
 
   - title: links
     entries:
