@@ -11,10 +11,8 @@ Example: `<img src="./assets/images/triangle.svg">`
 <br>
 <br>
 <br>
-<img class="ioda" src="./assets/images/triangle.svg" title="Figma.com is a great website for creating SVG images for free">
+<img class="ioda" src="./assets/images/triangle.svg" title="Pictures are also fun because you can add 'hidden' messages like this one">
 <br>
 <br>
 <br>
-<img class="ioda" src="./assets/images/svgs/update.svg" title="This is a test">
-
-[Excalidraw.com](https://excalidraw.com/)
+<img class="ioda" src="./assets/images/svgs/update.svg" title="check out excalidraw.com">

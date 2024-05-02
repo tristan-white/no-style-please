@@ -1,6 +1,6 @@
 ---
-layout: page
 # note: only difference between page and and post is page doesn't show publish date
+layout: page
 title: about
 ---
 ## quick facts
@@ -17,7 +17,6 @@ title: about
 	- No. Well, not yet. I'm still in the Navy. Follow me on [LinkedIn](https://www.linkedin.com/in/tr15t4n) and I'll let you know when that changes.
 
 ## to do
-
 - [x] learn how to make a website
 - [x] run a marathon
 	- [X] sub 4:00:00
