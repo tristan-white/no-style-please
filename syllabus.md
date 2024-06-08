@@ -7,6 +7,8 @@ This is a list of good articles I've found/read on the internet. If it's on this
 For now, I'm just dumping these links here in case I want to reference them later. Perhaps one day I'll organize them more coherently.
 
 ---
+- [The TTY demystified](http://www.linusakesson.net/programming/tty/index.php)
+	- Great introduction to TTYs in Linux
 - [The Navy Information Warfare Communities' Road to Serfdom](https://cimsec.org/navy-information-warfares-road-to-serfdom/)
 	- Interesting article on the purpose of the Navy's Information Warfare Community from the perspective of an officer that helped create it.
 - [Writing a proper GitHub issue](https://medium.com/nyc-planning-digital/writing-a-proper-github-issue-97427d62a20f)
