@@ -20,7 +20,7 @@ graph TD
     after_easy[But I don't want to<br>have to paste html<br>in my posts.]
     style after_easy stroke-dasharray: 5
     hard[1. Create a github workflow<br>2. Import jekyll-mermaid plugin]
-    final[Give this article a fa:fa-hands-clapping <br>]
+    final[Done! 👏<br>]
 
     start --> time
 
