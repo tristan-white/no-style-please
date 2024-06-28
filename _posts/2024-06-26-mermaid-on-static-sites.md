@@ -62,7 +62,7 @@ graph LR
 Use [mermaid.live](https://mermaid.live) to create a graph, then use their export actions to export to a PNG or SVG. Then you can simply upload the image to your post as you would any other picture.
 
 ### Jekyll Plugin
-If you really want to use Jekyll to render mermaid mardown using backticks (as you would on GitHub or GitLab), there is a way. It is also much more involved. You need to:
+If you really want to use Jekyll to render mermaid markdown using backticks (as you would on GitHub or GitLab), there is a way. It is also much more involved. You need to:
 
 1. Download the [Jekyll Spaceship Plugin](https://github.com/jeffreytse/jekyll-spaceship?tab=readme-ov-file#installation)
 2. If using GitHub: [Change your GitHub workflow](https://carsonboden.com/Programming/Jekyll-Pages#github-pages).
