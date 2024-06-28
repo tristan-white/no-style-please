@@ -1,6 +1,6 @@
 ---
 layout: post
-title: use tar and nc to remote copy files
+title: tar and nc to remote copy files
 category: computer
 ---
 <a href="https://xkcd.com/1168"><img src="https://imgs.xkcd.com/comics/tar.png" title="We've all been there." /></a>
