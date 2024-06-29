@@ -4,8 +4,8 @@ layout: page
 title: about
 ---
 # what am i doing right now
-- [reading](https://tristanwhite.me/books) Elon Musk's biography by Isaac Walterson
-- working on the [oscp](https://www.offsec.com/courses/pen-200/) cert
+- reading a [book](https://tristanwhite.me/books)
+- working on the [OSCP](https://www.offsec.com/courses/pen-200/) cert
 - [training](https://www.strava.com/athletes/tristanwhite) to a run a 3.5 hr marathon
 
 ## quick facts
